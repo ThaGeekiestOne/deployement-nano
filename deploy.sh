@@ -149,7 +149,7 @@ step_jtop() {
 step_firefox() {
     cd "$DEPLOY_HOME"
     wget -c -O firefox-nightly-arm64.deb \
-        https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-159.0a1.en-US.linux-aarch64.deb
+        https://ftp.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-160.0a1.en-US.linux-aarch64.deb
     S dpkg -i firefox-nightly-arm64.deb
 }
 
